@@ -1,10 +1,32 @@
 .logo {
     max-height: 50px;
+    background-color: #5fdfe5; /* Matches logo background */
+    border-radius: 50%; /* Circular logo */
+}
+
+.navbar {
+    background-color: #5fdfe5; /* Navbar matches logo background */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #010408; /* Black from logo */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #8bc1f7; /* Circle background as hover accent */
 }
 
 .hero {
-    background-color: #1e90ff; /* Blue theme */
+    background-color: #8bc1f7; /* Circle background for hero section */
     min-height: 300px;
+}
+
+body {
+    color: #010408; /* Default text color from logo */
+}
+
+.bg-dark {
+    background-color: #010408 !important; /* Footer matches logo black */
 }
 
 .img-fluid {
