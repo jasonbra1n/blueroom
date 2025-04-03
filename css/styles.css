@@ -1,57 +1,56 @@
 /* Logo Styling */
 .logo {
     max-height: 50px;
-    background-color: #5fdfe5; /* Matches logo background */
-    border-radius: 50%; /* Circular logo */
-    padding: 5px; /* Adds a little breathing room */
+    background-color: #5fdfe5;
+    border-radius: 50%;
+    padding: 5px;
 }
 
 /* Navbar Styling */
 .navbar {
-    background-color: #5fdfe5; /* Light cyan navbar */
-    box-shadow: 0 2px 4px rgba(1, 4, 8, 0.1); /* Subtle shadow for depth */
-    padding: 0.75rem 1rem; /* Astra-like spacing */
+    background-color: #5fdfe5;
+    box-shadow: 0 2px 4px rgba(1, 4, 8, 0.1);
+    padding: 0.75rem 1rem;
 }
 
-/* Navbar Links */
 .navbar-dark .navbar-nav .nav-link {
-    color: #010408; /* Near-black text */
-    font-weight: 500; /* Slightly bold for emphasis */
-    padding: 0.5rem 1rem; /* More clickable area */
-    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth hover effect */
+    color: #010408;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #ffffff; /* White on hover for contrast */
-    background-color: #8bc1f7; /* Light blue accent */
-    border-radius: 5px; /* Rounded corners */
+    color: #ffffff;
+    background-color: #8bc1f7;
+    border-radius: 5px;
 }
 
 .navbar-dark .navbar-nav .nav-link:active,
 .navbar-dark .navbar-nav .nav-link:focus {
-    color: #010408; /* Keep readable when clicked */
-    background-color: #6ba9e6; /* Slightly darker blue for active state */
+    color: #010408;
+    background-color: #6ba9e6;
 }
 
 /* Hero Section */
 .hero {
-    background-color: #8bc1f7; /* Light blue background */
+    background-color: #8bc1f7;
     min-height: 300px;
-    padding: 4rem 1rem; /* More vertical space */
-    text-shadow: 1px 1px 2px rgba(1, 4, 8, 0.2); /* Subtle shadow for text contrast */
+    padding: 4rem 1rem;
+    text-shadow: 1px 1px 2px rgba(1, 4, 8, 0.2);
 }
 
 /* Body Text */
 body {
-    color: #010408; /* Default text color */
-    font-family: 'Arial', sans-serif; /* Clean, Astra-like font */
-    line-height: 1.6; /* Better readability */
+    color: #010408;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
 }
 
 /* Headings */
 h1, h2, h3 {
     color: #010408;
-    font-weight: 700; /* Bold headings */
+    font-weight: 700;
 }
 
 h1 {
@@ -71,36 +70,51 @@ h3 {
 
 /* Links in Content */
 a {
-    color: #8bc1f7; /* Light blue for links */
-    text-decoration: none; /* No underline by default */
+    color: #8bc1f7;
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #6ba9e6; /* Darker blue on hover */
-    text-decoration: underline; /* Underline on hover */
+    color: #6ba9e6;
+    text-decoration: underline;
 }
 
 /* Footer */
 .bg-dark {
-    background-color: #010408 !important; /* Near-black footer */
-    padding: 1.5rem 0; /* More padding */
+    background-color: #010408 !important;
+    padding: 1.5rem 0;
 }
 
 /* Image Styling */
 .img-fluid {
     max-width: 100%;
     height: auto;
-    border-radius: 5px; /* Rounded corners for a softer look */
-    box-shadow: 0 2px 4px rgba(1, 4, 8, 0.1); /* Subtle shadow */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(1, 4, 8, 0.1);
 }
 
 /* Container Adjustments */
 .container {
-    padding: 0 1.5rem; /* Wider content area */
+    padding: 0 1.5rem;
 }
 
 /* Section Spacing */
 section {
-    margin: 3rem 0; /* More breathing room between sections */
+    margin: 3rem 0;
+}
+
+/* Pennies for the Rent Section */
+.pennies-section {
+    background-color: #f8f9fa;
+    padding: 2rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(1, 4, 8, 0.1);
+}
+
+.pennies-poster {
+    max-width: 800px;
+    width: 100%;
+    margin-top: 1.5rem;
+    border: 2px solid #8bc1f7;
 }
