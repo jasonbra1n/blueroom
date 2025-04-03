@@ -88,7 +88,7 @@ a:hover {
 
 /* Image Styling */
 .img-fluid {
-    max-width: 100%;
+    max-width: 100;
     height: auto;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(1, 4, 8, 0.1);
@@ -142,4 +142,18 @@ section {
 /* Navbar Toggler Icon for Mobile */
 .navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23010408' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Form Button Styling */
+.btn-primary {
+    background-color: #8bc1f7;
+    border-color: #8bc1f7;
+    color: #010408;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #6ba9e6;
+    border-color: #6ba9e6;
+    color: #010408;
 }
