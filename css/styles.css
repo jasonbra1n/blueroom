@@ -135,7 +135,6 @@ section {
 }
 
 .social-icon {
-    width: 24px;
-    height: 24px;
+    font-size: 24px; /* Updated for Bootstrap icon */
     vertical-align: middle;
 }
