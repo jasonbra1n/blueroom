@@ -88,7 +88,7 @@ a:hover {
 
 /* Image Styling */
 .img-fluid {
-    max-width: 100;
+    max-width: 100%;
     height: auto;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(1, 4, 8, 0.1);
@@ -125,13 +125,14 @@ section {
     text-decoration: none;
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.3rem; /* Reduced from 0.5rem for tighter spacing */
     transition: color 0.3s ease;
+    margin: 0 0.5rem; /* Added for spacing between icons */
 }
 
 .social-link:hover {
     color: #6ba9e6;
-    text-decoration: underline;
+    text-decoration: none; /* Removed underline on hover for icons */
 }
 
 .social-icon {
