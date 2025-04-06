@@ -125,14 +125,14 @@ section {
     text-decoration: none;
     display: inline-flex;
     align-items: center;
-    gap: 0.3rem; /* Reduced from 0.5rem for tighter spacing */
+    gap: 0.3rem;
     transition: color 0.3s ease;
-    margin: 0 0.5rem; /* Added for spacing between icons */
+    margin: 0 0.5rem;
 }
 
 .social-link:hover {
     color: #6ba9e6;
-    text-decoration: none; /* Removed underline on hover for icons */
+    text-decoration: none;
 }
 
 .social-icon {
@@ -157,4 +157,17 @@ section {
     background-color: #6ba9e6;
     border-color: #6ba9e6;
     color: #010408;
+}
+
+/* Artist Roster Grid */
+.artist-roster .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Adjust column width for 5 artists */
+.artist-roster .col-md-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
 }
