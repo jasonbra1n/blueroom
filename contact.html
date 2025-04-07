@@ -13,27 +13,19 @@
 
     <section class="container my-5">
         <h1 class="text-center">Contact Us</h1>
-        <p class="text-center">Booking inquiries, event rentals, or questions? Reach out!</p>
-        <p class="text-center">
-            Email: <a href="#" id="email-link">Click to reveal email</a><br>
-            Call to RSVP: 613-553-4699<br>
-            Location: 6666 Hwy 35, Coboconk, ON
-        </p>
-        <form id="contact-form" method="POST" class="col-md-6 mx-auto">
-            <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+        <p class="text-center lead">Reach out to The Blue Room Coboconk for bookings, questions, or donations!</p>
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <p>Get in touch via email:</p>
+                <div class="d-flex flex-column flex-md-row justify-content-center gap-3 mb-4">
+                    <a href="mailto:bookings@theblueroomcoboconk.com" class="btn btn-primary"><i class="bi bi-calendar-event me-2"></i> Bookings</a>
+                    <a href="mailto:questions@theblueroomcoboconk.com" class="btn btn-primary"><i class="bi bi-question-circle me-2"></i> Questions</a>
+                    <a href="mailto:donations@theblueroomcoboconk.com" class="btn btn-primary"><i class="bi bi-heart-fill me-2"></i> Donations</a>
+                </div>
+                <p>Location: 6666 Hwy 35, Coboconk, ON</p>
+                <p class="text-muted">We’ll get back to you as soon as possible!</p>
             </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" name="email" class="form-control" id="email" placeholder="Your Email" required>
-            </div>
-            <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea name="message" class="form-control" id="message" rows="3" placeholder="Your Message" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Send Message</button>
-        </form>
+        </div>
     </section>
 
     <div id="footer-placeholder"></div>
@@ -41,17 +33,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/load-nav.js"></script>
     <script src="js/load-footer.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            // Set form action dynamically
-            const form = document.getElementById("contact-form");
-            form.action = "https://formsubmit.co/" + "Long_story_3" + "@" + "hotmail.com";
-
-            // Set email link dynamically
-            const emailLink = document.getElementById("email-link");
-            emailLink.href = "mailto:" + "Long_story_3" + "@" + "hotmail.com";
-            emailLink.textContent = "Long_story_3@hotmail.com";
-        });
-    </script>
 </body>
 </html>
