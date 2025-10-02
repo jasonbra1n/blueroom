@@ -1,0 +1,160 @@
+/* Logo Styling */
+.logo {
+    max-height: 50px;
+    background-color: #5fdfe5;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #5fdfe5;
+    box-shadow: 0 2px 4px rgba(1, 4, 8, 0.1);
+    padding: 0.75rem 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #010408;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    background-color: #8bc1f7;
+    border-radius: 5px;
+}
+
+.navbar-dark .navbar-nav .nav-link:active,
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #010408;
+    background-color: #6ba9e6;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #8bc1f7;
+    min-height: 300px;
+    padding: 4rem 1rem;
+    text-shadow: 1px 1px 2px rgba(1, 4, 8, 0.2);
+}
+
+/* Body Text */
+body {
+    color: #010408;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #010408;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Links in Content */
+a {
+    color: #8bc1f7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #6ba9e6;
+    text-decoration: underline;
+}
+
+/* Footer */
+.bg-dark {
+    background-color: #010408 !important;
+    padding: 1.5rem 0;
+}
+
+/* Image Styling */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(1, 4, 8, 0.1);
+}
+
+/* Container Adjustments */
+.container {
+    padding: 0 1.5rem;
+}
+
+/* Section Spacing */
+section {
+    margin: 3rem 0;
+}
+
+/* Pennies for the Rent Section */
+.pennies-section {
+    background-color: #f8f9fa;
+    padding: 2rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(1, 4, 8, 0.1);
+}
+
+.pennies-poster {
+    max-width: 800px;
+    width: 100%;
+    margin-top: 1.5rem;
+    border: 2px solid #8bc1f7;
+}
+
+/* Social Link Styling */
+.social-link {
+    color: #8bc1f7;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem; /* Reduced from 0.5rem for tighter spacing */
+    transition: color 0.3s ease;
+    margin: 0 0.5rem; /* Added for spacing between icons */
+}
+
+.social-link:hover {
+    color: #6ba9e6;
+    text-decoration: none; /* Removed underline on hover for icons */
+}
+
+.social-icon {
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+/* Navbar Toggler Icon for Mobile */
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23010408' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Form Button Styling */
+.btn-primary {
+    background-color: #8bc1f7;
+    border-color: #8bc1f7;
+    color: #010408;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #6ba9e6;
+    border-color: #6ba9e6;
+    color: #010408;
+}
